@@ -2,12 +2,13 @@
 <html lang="no">
   <!-- kontrol+stjerne gir kommentar, head er kun for nettleserinformasjon -->
   <head>
-    <title>Hjem</title>
+    <title>Introduksjon til bonsai</title>
     <link rel="icon" type="image/x-icon" href="browser.png" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="styles.css" />
     <script type="module" src="script.js"></script>
+    <link rel="icon" type="image/x-icon" href="favicon.jpg">
   </head>
 
   <!-- body body det som skal synes -->
@@ -15,30 +16,79 @@
   <body>
     <header>
       <nav>
-        <a href="">Hjem</a>
-        <a href="">Om meg</a>
-        <a href="">Prosjekter</a>
+        <a href="#eksempler">Eksempler</a>
+        <a href="#stell">Metode</a>
+        <a href="#about">Om nettsiden</a>
       </nav>
     </header>
 
     <main>
-      <section>
-        <h1>Velkommen til min side! Kan bare være én h1!</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ipsum
-          aperiam quas debitis natus officia.
-        </p>
+      <section class="hero">
+        <div class="heroText">
+          <h1>Bonsai på min måte</h1>
+          <p>
+            Bonsai er trær i potter. Det er også en kunstform. Bonsaikunstneren samarbeider med treet om å lage et kunstverk bestående av treet og potten, som danner helheten. Det er selvsagt bare mulig å forme treet slik det selv kan vokse, og slik blir det en kollaborativ kunstform hvor naturen også er en aktivt skapende part.
+          </p>
+        </div>
+
+        <img class="heroImg" src="Bonsai1.jpg" alt="bonsai1">
+        <br>
       </section>
-      <section>
-        <h2>Underoverskrift: Om Meg</h2>
+
+
+      <section class="eksempler" id="eksempler">
+        <div class="eksemplerTekst">
+        <h2>Eksempler på bonsai</h2>
+        <p>Treet øverst er en sitkagran. Det er en av verdends største trær, som kan bli over 100 meter, men kan fint holdes som bonsai med riktig stell.</p>
+
+      <p>
+        Det neste treet er en eik. Den er ca. 4 år, og må vokse mer før den kan formes noe særlig.
+      </p>
+        </div>
+      <img class="eksemplerImg" src="Bonsai2.jpg" alt="eik">
+
       </section>
-      <section>
-        <h2>Prosjekter</h2>
+
+      <section class="eksempler2">
+        <div class="eksempler2Tekst">
+            <p>
+              Dette er en hassel. Den prøver å vokse som en busk, men kan fint klippes til et tre. Hassel er lite populært som bonsai fordi bladene blir ektremt store, men jeg synes den kan bli fin likevel.
+            </p>
+            
+        </div>
+      <img class="eksemplerImg" src="Bonsai3.jpg" alt="hassel">
+        
       </section>
+
+      <section id="stell" class="stell">
+        <div class="stellTekst">
+          <h2>
+            Hvordan dyrke bonsai
+          </h2>
+          <ul>
+            <li>Bonsai må pottes om omtrent hvert andre år for å holde seg sunne, da som oftest til samme potten, for den skal jo ikke bli for stor.</li>
+            <li>Bruk minst 95% mineralsk (uorganisk) jord slik som i naturen, for eksempel sand, akadamaleire eller Lechuza-Pon. Altså IKKE mose eller kompost, som er noe tull hagesentrene har funnet på for å selge deg en billig kortvarig jorderstatning.</li>
+            <li>Gjødsel må de ha.</li>
+            <li>Trærne formes ved beskjæring eller oppbinding i ønsket fasong.</li>
+            <li>Ved ompotting må også roten beskjæres slik at den stadig har litt plass til å vokse.</li>
+            <li>De fleste bonsai må dyrkes utendørs.</li>
+            <li>Pass på vanning, må aldri tørke helt ut!</li>
+            <li>Med riktig (uorganisk) jord trenger man ikke bekymre seg for overvanning.</li>
+            <li>Bruk gjerne tradisjonelle bonsaipotter av leire, men det er ikke nødvendig.</li>
+          </ul>
+            
+        </div>
+
+        
+      </section>
+
     </main>
 
-    <footer>
+    <footer class="footer" id="about">
       <h3>Laget av Eivind</h3>
+      <h4><a href="https://github.com/eivind-glodedata">Finn meg på GitHub</a></h4>
+      <h4>Kilder: Egen erfaring og egne bilder.</h3>
     </footer>
   </body>
 </html>
+
